@@ -13,6 +13,7 @@ body {
 
 .header ul{
 	width: 60%;
+	margin-top: 5px;
 }
 .header li {
 	list-style-type: none;
@@ -22,7 +23,7 @@ body {
 }
 
 .header a {
-	padding: 5px 20px; 
+	padding: 7px 20px; 
 	color: white;
 	text-decoration: none;
 }
