@@ -45,7 +45,7 @@ body {
 .mainImage img {
 	opacity: 0.3;
 	z-index: -2;
-	height: 80vh;
+	/*height: 80vh;*/
 	width: 100vw;
 }
 .mainImage {
@@ -93,4 +93,31 @@ body {
 
 .footballers {
 	margin-top: 10%;
+}
+
+
+@media all and (min-width: 250px) {
+	.mainText {
+		font-size: 2rem;
+	}
+	.subText {
+		font-size: 0.7rem;
+	}
+}
+
+@media all and (min-width: 600px) {
+	.mainText {
+		font-size: 3rem;
+	}
+	.subText {
+		font-size: 0.9rem;
+	}
+}
+@media all and (min-width: 900px) {
+	.mainText {
+		font-size: 4rem;
+	}
+	.subText {
+		font-size: 1rem;
+	}
 }
