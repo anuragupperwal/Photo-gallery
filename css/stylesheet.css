@@ -22,19 +22,20 @@ body {
 	text-align: center;
 }
 
-.header a {
+.navlink {
 	padding: 7px 20px; 
 	color: white;
 	text-decoration: none;
 }
 
-.header a:hover {
+.navlink:hover {
 	background-color: #FFF;
 	color: #000; 
 	border-radius: 3px;
+	text-decoration: none;
 }
 
-.header a:active{ 
+.navlink:active{ 
 	background-color: #ffb370;
 	color: #fff;
 }
@@ -98,10 +99,10 @@ body {
 
 @media all and (min-width: 250px) {
 	.mainText {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	.subText {
-		font-size: 0.7rem;
+		font-size: 1rem;
 	}
 }
 
@@ -110,7 +111,7 @@ body {
 		font-size: 3rem;
 	}
 	.subText {
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 	}
 }
 @media all and (min-width: 900px) {
@@ -118,6 +119,6 @@ body {
 		font-size: 4rem;
 	}
 	.subText {
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 }
